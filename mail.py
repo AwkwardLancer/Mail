@@ -15,6 +15,6 @@ def Main():
 	try:
 		os.system("python3 -m ote")
 	except:
-		print("Please install python3")
+		os.system("python -m ote")
 if __name__ == "__main__":
 	Main()
